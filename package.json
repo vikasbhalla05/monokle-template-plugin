@@ -1,10 +1,12 @@
 {
-    "name": "Template plugin",
+    "name": "Templates plugin",
     "description": "custom template plugin",
     "version": "1.0.0",
     "author": "Vikas",
-    "repository": "https://github.com/vikasbhalla05/monokle-template-plugin.git",
+    "repository": "https://github.com/vikasbhalla05/monokle-template-plugin",
     "monoklePlugin": {
+        "id": "random.id",
+        "helpUrl": "https://github.com/vikasbhalla05/monokle-template-plugin",
         "modules": [
             {
                 "type": "template",
