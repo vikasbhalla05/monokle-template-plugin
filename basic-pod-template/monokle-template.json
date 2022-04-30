@@ -1,0 +1,24 @@
+{
+    "name": "Basic Kubernetes Pod",
+    "id": "random.id",
+    "author": "Vikas Bhalla",
+    "version": "1.0.0",
+    "description": "Creates a pod for a specified Image",
+    "repository": "",
+    "type": "Vanilla",
+    "forms": [
+        {
+            "name": "Pod Settings",
+            "description": "Specify the settign for your pod",
+            "schema": "form-schema.json",
+            "uiSchema": "form-ui-schema.json"
+        }
+    ],
+    "manifest": [
+        {
+            "filePath": "template.yaml"
+        }
+    ],
+    "resultMessage": "Pod resources created successfully!",
+    "helpUrl": "https://github.com/vikasbhalla05/monokle-template-plugin.git"
+}
